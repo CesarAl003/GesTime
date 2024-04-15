@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,37 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBJQ2jN2OZsuoSRZMASg_Zw5RgmZ8X6Ei0',
-    appId: '1:1068910061713:web:771458f0be129023553730',
-    messagingSenderId: '1068910061713',
-    projectId: 'ayums-11ds',
-    authDomain: 'ayums-11ds.firebaseapp.com',
-    storageBucket: 'ayums-11ds.appspot.com',
+    apiKey: 'AIzaSyBmQVBVQKt-rBGfKPG25qfMJDDalXhjr28',
+    appId: '1:561119530449:web:f2f9df481112d9732da4f0',
+    messagingSenderId: '561119530449',
+    projectId: 'gestime-4d2cb',
+    authDomain: 'gestime-4d2cb.firebaseapp.com',
+    storageBucket: 'gestime-4d2cb.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBsfavXMV-Ek1IMzJVNdYaGqpecYuBv-xw',
-    appId: '1:1068910061713:android:1addc39b3d69a66e553730',
-    messagingSenderId: '1068910061713',
-    projectId: 'ayums-11ds',
-    storageBucket: 'ayums-11ds.appspot.com',
+    apiKey: 'AIzaSyDOyQReIL8uqXcvdQR8p6VEddiBmQsHZaw',
+    appId: '1:561119530449:android:0683fcf2975c2e3f2da4f0',
+    messagingSenderId: '561119530449',
+    projectId: 'gestime-4d2cb',
+    storageBucket: 'gestime-4d2cb.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCjWBooPKOjpQrP5m5HLZqv7CsgJ0Nzpuc',
-    appId: '1:1068910061713:ios:d4c9d380a828e70b553730',
-    messagingSenderId: '1068910061713',
-    projectId: 'ayums-11ds',
-    storageBucket: 'ayums-11ds.appspot.com',
-    iosBundleId: 'com.example.countdownApp',
+    apiKey: 'AIzaSyDvhU27L6IPxfQZEM_L2-xhInRuHcWxT6A',
+    appId: '1:561119530449:ios:6804a1c205e598e32da4f0',
+    messagingSenderId: '561119530449',
+    projectId: 'gestime-4d2cb',
+    storageBucket: 'gestime-4d2cb.appspot.com',
+    iosBundleId: 'com.example.gestime',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCjWBooPKOjpQrP5m5HLZqv7CsgJ0Nzpuc',
-    appId: '1:1068910061713:ios:d4c9d380a828e70b553730',
-    messagingSenderId: '1068910061713',
-    projectId: 'ayums-11ds',
-    storageBucket: 'ayums-11ds.appspot.com',
-    iosBundleId: 'com.example.countdownApp',
+    apiKey: 'AIzaSyDvhU27L6IPxfQZEM_L2-xhInRuHcWxT6A',
+    appId: '1:561119530449:ios:6804a1c205e598e32da4f0',
+    messagingSenderId: '561119530449',
+    projectId: 'gestime-4d2cb',
+    storageBucket: 'gestime-4d2cb.appspot.com',
+    iosBundleId: 'com.example.gestime',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyBmQVBVQKt-rBGfKPG25qfMJDDalXhjr28',
+    appId: '1:561119530449:web:3236c7cee979facb2da4f0',
+    messagingSenderId: '561119530449',
+    projectId: 'gestime-4d2cb',
+    authDomain: 'gestime-4d2cb.firebaseapp.com',
+    storageBucket: 'gestime-4d2cb.appspot.com',
+  );
+
 }
