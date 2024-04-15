@@ -7,8 +7,8 @@ class note extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.indigo,
         title: const Text(
-          "Screen 4",
-          style: TextStyle(color: Colors.blue),
+          "Notas",
+          style: TextStyle(color: Colors.red),
         ),
       ),
     );
