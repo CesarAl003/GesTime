@@ -88,9 +88,6 @@ class _SignUp extends State<SignUpView> {
               ElevatedButton(
                 // Botón de Aceptar
                 onPressed: () async {
-                  // Para acceder a mi mensaje en caso de error
-                  print(_txtEmail.text);
-                  print(_txtPass.text);
                   widget.signUpProvider
                       .signIn(context, _txtEmail.text, _txtPass.text);
                   //loginProvider.signIn(context, _txtEmail.text, _txtPass.text);

@@ -26,12 +26,12 @@ class HomePageView extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-  List<dynamic> screens = [
+  const List<dynamic>  screens = [
         // Mis pestañas contenidas en el menu
         countDown(),
         Login(),
         SignUp(), // Prueba
-        note(), // Prueba
+        AuthenticationPage(), // Prueba
       ];
 
     return Scaffold(
